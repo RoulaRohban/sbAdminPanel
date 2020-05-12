@@ -5,6 +5,32 @@ window._ = require('lodash');
  * to our Laravel back-end. This library automatically handles sending the
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
+try {
+    window.Popper = require('popper.js').default;
+    window.$ = window.jQuery = require('jquery');
+
+} catch (e) {}
+
+require('../assets/js/jquery.min.js');
+require('../assets/js/bootstrap.bundle.min.js');
+require('../assets/js/jquery.easing.min.js');
+require('../assets/js/sb-admin-2.min.js');
+require('../assets/js/Chart.min.js');
+require('../assets/js/chart-area-demo.js');
+require('../assets/js/chart-pie-demo.js');
+require('../assets/js/chart-bar-demo.js');
+require('../assets/js/jquery.dataTables.min.js');
+require('../assets/js/dataTables.bootstrap4.min.js');
+require('../assets/js/datatables-demo.js');
+
+
+
+
+
+
+
+
+
 
 window.axios = require('axios');
 

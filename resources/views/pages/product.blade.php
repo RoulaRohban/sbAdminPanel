@@ -1,4 +1,4 @@
-@extends('layouts.defualt')
+@extends('layouts.app')
 @section('content')
 <!-- Main Content -->
 
@@ -55,3 +55,10 @@
     </div>
     <!-- /.container-fluid -->
 @stop
+
+@section('scripts')
+<!-- Page level plugins -->
+{{--<script src="{!! asset('theme/vendor/datatables/jquery.dataTables.min.js') !!}"></script>--}}
+{{--<script src="{!! asset('theme/vendor/datatables/dataTables.bootstrap4.min.js') !!}"></script>--}}
+{{--<script src="{!! asset('theme/js/demo/datatables-demo.js') !!}"></script>--}}
+    @stop

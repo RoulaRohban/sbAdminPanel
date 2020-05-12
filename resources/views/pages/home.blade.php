@@ -1,4 +1,7 @@
-@extends('layouts.defualt')
+@extends('layouts.app')
+@section('styles')
+
+    @stop
 @section('content')
     <div class="container-fluid">
 
@@ -201,6 +204,5 @@
 
     </div>
     <!-- /.container-fluid -->
-
     </div>
     @stop

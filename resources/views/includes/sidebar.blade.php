@@ -4,7 +4,7 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="my-home">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href = {{ route('home') }}>
             <div class="sidebar-brand-icon rotate-n-15">
                 <i class="fas fa-laugh-wink"></i>
             </div>
@@ -16,7 +16,7 @@
 
         <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
-            <a class="nav-link" href="my-home">
+            <a class="nav-link" href = {{ route('home') }}>
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                 <span>Dashboard</span></a>
         </li>
@@ -39,15 +39,15 @@
                 <div class="bg-white py-2 collapse-inner rounded">
                     <div class="collapse-divider"></div>
                     <h6 class="collapse-header">items:</h6>
-                    <a class="collapse-item" href="products">Products</a>
-                    <a class="collapse-item" href="categories">Categories</a>
+                    <a class="collapse-item" href = {{ route('products.index') }}>Products</a>
+                    <a class="collapse-item" href = {{ route('category.index') }}>Categories</a>
                 </div>
             </div>
         </li>
 
         <!-- Nav Item - Charts -->
         <li class="nav-item">
-            <a class="nav-link" href="my-charts">
+            <a class="nav-link" href = {{ route('chart') }}>
                 <i class="fas fa-fw fa-chart-area"></i>
                 <span>Charts</span></a>
         </li>
