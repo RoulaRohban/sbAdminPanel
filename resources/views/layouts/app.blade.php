@@ -46,7 +46,7 @@
 {{--<script src="{!! asset('theme/js/demo/chart-area-demo.js') !!}"></script>--}}
 {{--<script src="{!! asset('theme/js/demo/chart-pie-demo.js') !!}"></script>--}}
 {{--<script src="{!! asset('theme/js/demo/chart-bar-demo.js') !!}"></script>--}}
-<script src="{{ asset('js/app.js') }}"></script>
+<script src="{!! asset('js/all.js') !!}"></script>
 
 @yield('scripts')
 
