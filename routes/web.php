@@ -20,6 +20,8 @@ Route::get('my-home', 'HomeController@myHome')->name('home');
 
 Route::get('my-charts', 'HomeController@myChart')->name('chart');
 
-Route::get('products', 'ProductController@index')->name('products.index');
 
-Route::get('categories', 'HomeController@category')->name('category.index');
+Route::group( [ 'prefix' => 'admin' , 'as' => 'admin.'], function()
+{
+    Route::resource('/libraries', 'LibraryController');
+});

@@ -33,10 +33,10 @@
 {{--<script src="{!! asset('theme/vendor/jquery/jquery.min.js') !!}"></script>--}}
 {{--<script src="{!! asset('theme/vendor/bootstrap/js/bootstrap.bundle.min.js') !!}"></script>--}}
 
-<!-- Core plugin JavaScript-->
+{{--<!-- Core plugin JavaScript-->--}}
 {{--<script src="{!! asset('theme/vendor/jquery-easing/jquery.easing.min.js') !!}"></script>--}}
 
-<!-- Custom scripts for all pages-->
+{{--<!-- Custom scripts for all pages-->--}}
 {{--<script src="{!! asset('theme/js/sb-admin-2.min.js') !!}"></script>--}}
 
 <!-- Page level plugins -->
@@ -47,7 +47,7 @@
 {{--<script src="{!! asset('theme/js/demo/chart-pie-demo.js') !!}"></script>--}}
 {{--<script src="{!! asset('theme/js/demo/chart-bar-demo.js') !!}"></script>--}}
 <script src="{!! asset('js/all.js') !!}"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 @yield('scripts')
 
 </body>
